@@ -10,7 +10,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": ".",
+      "value": ",",
       "required": true
     },
     "AUTO_REJECT_CALL": {
