@@ -10,8 +10,7 @@
     "start": "node index.js",
     "bot": "pm2 start index.js --attach --max-memory-restart 490M",
     "c": "tsc",
-    "heroku-prebuild": "rm -rf node_modules",
-    "postinstall": "node patches/apply.js"
+    "heroku-prebuild": "rm -rf node_modules"
   },
   "engines": {
     "node": "20.x",
